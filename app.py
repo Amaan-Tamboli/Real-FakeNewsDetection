@@ -6,7 +6,7 @@ model = joblib.load('Real-Fake')
 st.title('Real-Fake News Detection')
 
 # user input
-ip = st.text_input('Enter the message : ')
+ip = st.text_input('Enter the news : ')
 st.subheader('Note:- ')
 st.caption('The input format should be : title - text')
 
