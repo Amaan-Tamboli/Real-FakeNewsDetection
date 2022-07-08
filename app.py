@@ -14,3 +14,6 @@ st.caption('The input format should be : title - text')
 op = model.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
+
+  
+  
